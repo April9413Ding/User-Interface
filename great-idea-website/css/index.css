@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	text-decoration: none;
+}
+
+.container{
+	width: 100%;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+nav{
+	width: 100%;
+	max-width: 60rem;
+	height: 4rem;
+	background-color: cornsilk;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+a{
+	color: gray;
+	margin: 1rem 2rem;
+}
+
+.navLink{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	vertical-align: middle;
+	padding: 1rem 0;
+}
+
+.hero{
+	margin-top: 4rem;
+}
+
+.heroLeft{
+	display: inline-block;
+	width: 59%;
+	vertical-align: top;
+}
+
+h1{
+	font-size: 3.5rem;
+	text-align: center;
+	margin-top: 6rem;
+}
+
+.hero img{
+	display: inline-block;
+	width: 40%;
+	padding: 2rem;
+}
+
+.hero a{
+	display: inline;
+	border: 1px solid black;
+	text-align: center;
+	padding: 0.2rem 1rem;
+	margin: 0 40%;
+}
+
+section{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 2rem 0;
+}
+
+p{
+	line-height: 1.2;
+}
+
+.contentRow{
+	margin: 2rem 0;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.rowOne .textContent{
+	display: inline-block;
+	width: 48%;
+}
+
+.rowTwo .textContent{
+	display: inline-block;
+	width: 33%;
+}
+
+.copyright{
+	text-align: center;
+	margin:4rem auto;
+}
